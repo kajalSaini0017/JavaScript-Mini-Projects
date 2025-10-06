@@ -1,0 +1,25 @@
+.button{
+    width: 150px;
+    height: 60px;
+    background-color: gray;
+    border: none;
+    border-radius: 40px;
+}
+.circle{
+    height: 40px;
+    width: 45px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+}
+.move{
+    transform: translatex(80px);
+    transition: 0.2s ease-in;
+     background-color: rgb(187, 184, 184);
+
+}
+.hide{
+    transform: translatex(0px);
+    transition: 0.4s ease-in;
+
+}

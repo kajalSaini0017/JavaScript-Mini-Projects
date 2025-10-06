@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button{
+            padding: 5px 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="inner">
+        <h1>Color : <span>White</span></h1>
+        <button>Red</button>
+        <button>Black</button>
+        <button>Green</button>
+        <button>Yellow</button>
+        <button>Random</button>
+    </div>
+    <script>
+        let button=document.querySelectorAll("button");
+        let span=document.querySelector("span");
+        let h=document.querySelector("h1")
+        h.style.color="white";
+        button.forEach((btn)=>{
+            btn.addEventListener("click",()=>{
+               if(btn.textContent==="Red"){
+                document.body.style.backgroundColor="red";
+                span.textContent="Red";
+               }
+               if(btn.textContent==="Black"){
+                document.body.style.backgroundColor="black";
+                span.textContent="Black"
+               }
+               if(btn.textContent==="Green"){
+                document.body.style.backgroundColor="green";
+                span.textContent="Green";
+               }
+               if(btn.textContent==="Yellow"){
+                document.body.style.backgroundColor="yellow";
+                span.textContent="Yellow";
+               }
+               if(btn.textContent==="Random"){
+                let color=["Red","Pink","Orange","Yellow","Black","Green","Blue","Purple"]
+                let a=color[Math.floor(Math.random()*color.length)];
+                document.body.style.backgroundColor=a.toLowerCase()
+               }
+            })
+        })
+    </script>
+</body>
+</html>

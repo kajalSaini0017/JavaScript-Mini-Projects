@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Email & Password Validation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <form autocomplete="off" class="card" novalidate>
+      <h1 class="title">Sign in</h1>
+
+      <!-- Email -->
+      <label for="email" class="label">Email</label>
+      <input
+        id="email"
+        name="email"
+        type="email"
+        placeholder="you@example.com"
+        autocomplete="email"
+        class="input"
+        required
+      />
+      <div id="emailError" class="hint" aria-live="polite"></div>
+
+      <!-- Password -->
+      <label for="password" class="label">Password</label>
+      <div class="password-row">
+        <input
+          id="password"
+          name="password"
+          type="password"
+          placeholder="At least 8 characters"
+          autocomplete="current-password"
+          class="input"
+          required
+          minlength="8"
+        />
+        <button type="button" id="togglePwd" class="btn-toggle" aria-label="Show password">Show</button>
+      </div>
+      <div id="passwordError" class="hint" aria-live="polite"></div>
+
+      <!-- Password rules (you can toggle visibility from JS if you want) -->
+      <ul id="pwdRules" class="rules">
+        <li data-rule="length">Minimum 8 characters</li>
+        <li data-rule="lower">Lowercase letter (a–z)</li>
+        <li data-rule="upper">Uppercase letter (A–Z)</li>
+        <li data-rule="digit">A number (0–9)</li>
+        <li data-rule="special">A special character (!@#$%^&*)</li>
+      </ul>
+
+      <button id="submitBtn" type="submit" class="btn primary">Sign in</button>
+
+      <p class="small">Don't have an account? <a href="#">Sign up</a></p>
+      <div id="resultMessage"></div>
+    </form>
+  </main>
+
+  <!-- Add your JS file below and implement validation logic there -->
+  <script src="script.js"></script>
+</body>
+</html>
