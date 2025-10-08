@@ -42,7 +42,6 @@ Each project focuses on improving **logic building**, **DOM manipulation**, and 
 | Time & Interval Download                 | <img src="Projects-Screenshot/time-&-intervals-Screenshot.jpeg" alt="Time Interval" width="320"/> |
 | Toaster Notification                     | <img src="Projects-Screenshot/toster-notification-Screenshot.jpeg" alt="Toaster" width="320"/> |
 
-> Place all screenshot inside the `Projects-Screenshot` folder.
 
 ---
 
