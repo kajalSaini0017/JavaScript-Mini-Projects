@@ -27,20 +27,20 @@ Each project focuses on improving **logic building**, **DOM manipulation**, and 
 
 | Project Name                             | Preview |
 |------------------------------------------|---------|
-| Calculator                               | ![Calculator](Projects-Screenshot/Calculator-Screenshot.jpeg) |
-| Counter App                              | ![Counter](Projects-Screenshot/counter-app-Screenshot.jpeg) |
-| Dark / Light Theme                       | ![Dark Light](Projects-Screenshot/dark-light-theme-Screenshot.jpeg) |
-| Dynamic List Items                       | ![Dynamic List](Projects-Screenshot/dynamically-add-list-items-Screenshot.jpeg) |
-| form Card                                | ![Form Card](Projects-Screenshot/form-card-Screenshot.jpeg) |
-| Form Validation                          | ![Form Validation](Projects-Screenshot/form-validation-Screenshot.jpeg) |
-| Live Character Counter                   | ![Character Counter](Projects-Screenshot/live-character-counter-Screenshot.jpeg) |
-| Multi Color Background                   | ![Multi Color](Projects-Screenshot/multi-color-background-Screenshot.jpeg) |
-| Random Color Generator                   | ![Random Color](Projects-Screenshot/random-color-generator-Screenshot.jpeg) |
-| Stopwatch                                | ![stopwatch](Projects-Screenshot/stopwatch-Screenshot.jpeg) |
-| String Magic Box                         | ![String Magic](Projects-Screenshot/string-magic-box-Screenshot.jpeg) |
-| Theme Change                             | ![Theme Change](Projects-Screenshot/theme-change-Screenshot.jpeg) |
-| Time & Interval Download                 | ![Time Interval](Projects-Screenshot/time-&-intervals-Screenshot.jpeg) |
-| Toaster Notification                     | ![Toaster](Projects-Screenshot/toster-notification-Screenshot.jpeg) |
+| Calculator                               | <img src="Projects-Screenshot/Calculator-Screenshot.jpeg" alt="Calculator" width="400"/> |
+| Counter App                              | <img src="Projects-Screenshot/counter-app-Screenshot.jpeg" alt="Counter" width="400"/> |
+| Dark / Light Theme                       | <img src="Projects-Screenshot/dark-light-theme-Screenshot.jpeg" alt="Dark Light" width="400"/> |
+| Dynamic List Items                       | <img src="Projects-Screenshot/dynamically-add-list-items-Screenshot.jpeg" alt="Dynamic List" width="400"/> |
+| form Card                                | <img src="Projects-Screenshot/form-card-Screenshot.jpeg" alt="Form Card" width="400"/> |
+| Form Validation                          | <img src="Projects-Screenshot/form-validation-Screenshot.jpeg" alt="Form Validation" width="400"/> |
+| Live Character Counter                   | <img src="Projects-Screenshot/live-character-counter-Screenshot.jpeg" alt="Character Counter" width="400"/> |
+| Multi Color Background                   | <img src="Projects-Screenshot/multi-color-background-Screenshot.jpeg" alt="Multi Color" width="400"/> |
+| Random Color Generator                   | <img src="Projects-Screenshot/random-color-generator-Screenshot.jpeg" alt="Random Color" width="400"/> |
+| Stopwatch                                | <img src="Projects-Screenshot/stopwatch-Screenshot.jpeg" alt="stopwatch" width="400"/> |
+| String Magic Box                         | <img src="Projects-Screenshot/string-magic-box-Screenshot.jpeg" alt="String Magic" width="400"/> |
+| Theme Change                             | <img src="Projects-Screenshot/theme-change-Screenshot.jpeg" alt="Theme Change" width="400"/> |
+| Time & Interval Download                 | <img src="Projects-Screenshot/time-&-intervals-Screenshot.jpeg" alt="Time Interval" width="400"/> |
+| Toaster Notification                     | <img src="Projects-Screenshot/toster-notification-Screenshot.jpeg" alt="Toaster" width="400"/> |
 
 > Place all screenshot inside the `Projects-Screenshot` folder.
 
